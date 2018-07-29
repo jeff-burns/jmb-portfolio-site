@@ -224,10 +224,17 @@ a:active {
   visibility: visible;
 }
 
+/* #resume-holder {
+  min-width: 850px;
+  min-height: 1100px;
+} */
+
 #mover {
   /* width: 850px; */
   position: absolute;
   /* left: 20%; */
+  min-width: 850px;
+  min-height: 1100px;
   margin-left: -170px;
   bottom: -300px;
   z-index: -1;
@@ -257,12 +264,12 @@ a:active {
   }
   99% {
     margin-left: -125px;
-    z-index: 2;
+    z-index: 4;
     transform: scale(0.83);
   }
   to {
     margin-left: -125px;
-    z-index: 2;
+    z-index: 5;
     transform: scale(0.84);
   }
 }
